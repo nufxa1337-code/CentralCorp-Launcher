@@ -1,12 +1,12 @@
 {
-    "name": "conflictura",
-    "preductname": "Conflictura Launcher",
+    "name": "ftplauncher",
+    "preductname": "FTPLauncher",
     "version": "4.0.15",
-    "description": "Conflictura modded server launcher",
+    "description": "FTPLauncher",
     "main": "src/app.js",
-    "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
-    "env": "azuriom",
-    "settings": "https://conflictura.eu",
+    "author": "https://ftpworldmc.xyz",
+    "env": "panel",
+    "settings": "https://lncr.ftpworldmc.xyz",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "build": "node build.js --obf=true --build=platform",
@@ -38,6 +38,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        "url": "git+https://github.com/nufxa1337-code/CentralCorp-Launcher"
     }
 }
